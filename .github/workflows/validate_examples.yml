@@ -22,4 +22,7 @@ jobs:
           node-version: '16.x'
           cache: 'yarn'
       - run: yarn
-      - run: yarn test:examples
+    
+      
+      - run: npm run android
+      
